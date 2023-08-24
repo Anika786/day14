@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    width: 1028px;
+    margin: 0 auto;
+}
+/* header design  */
+header{
+    background:#f8f9fb;
+    text-align: center;
+    padding: 70px 0 110px 0;
+}
+/* header menu design  */
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+}
+header ul li a {
+    padding: 10px;
+    background:#48dbfb;
+    text-decoration: none;
+    font-weight: bold;
+    color: #494f57;
+    font-size: 18px;
+    transition: 0.5s;
+   
+}
+header ul li a:hover{
+    background: #fff;
+    transition: 0.5s;
+    color: black;
+    text-decoration: underline;
+}
+
+.banner{
+    background-color:#48dbfb;
+    padding: 200px 0px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -20px;
+    text-align: center;
+}
+.banner h2{
+    font-size: 25px;
+    color: white;
+}
+.banner h1{
+    font-size: 70px;
+    color: white;
+}
+
+.click-class{
+    font-size: 20px;
+    text-decoration: none;
+    background:#fff;
+    display: inline-block;
+    color: black;
+    padding: 15px 40px;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    z-index: 1;
+}
+.click-class::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    
+    border-radius: 0 20px 20px 0;
+    transition: .4s;
+    z-index: -1;
+}
+.click-class:hover::before{
+    width: 100%;
+    color: white;
+}
+.click-class:hover::before{
+    width: 100%;
+   
+}
+.service{
+    background-color:#f7f9f9;
+    text-align: center;
+}
+.service h1{
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 40px;
+}
+.service-pic{
+   
+}
+.box{
+    display: inline-block;
+}
+.box1{
+    cursor: pointer;
+    transition: .5s;
+}
+.box1:hover{
+    transform: rotate(360deg);
+}
+.box2{
+    cursor: pointer;
+    transition: .5s;
+}
+.box2:hover{
+    transform:skew(-4deg, 15deg);
+
+}
+.box3{
+    cursor: pointer;
+    transition: .5s;
+}
+.box3:hover{
+    transform:skew(4deg, -15deg);
+}
+.box4{
+    cursor: pointer;
+    transition: .5s;
+}
+.box4:hover{
+    transform:skew(4deg, -10deg);
+
+}
+.box1{
+    display: inline-block;
+}
+.box5{
+    cursor: pointer;
+    transition: .5s;
+}
+.box5:hover{
+    transform:skew(4deg, -15deg);
+
+}
+.box6{
+    cursor: pointer;
+    transition: .5s;
+}
+.box6:hover{
+    transform: rotate(360deg);
+
+}
+.box7{
+    cursor: pointer;
+    transition: .5s;
+}
+.box7:hover{
+    transform:skew(4deg, -10deg);
+}
+.box8{
+    cursor: pointer;
+    transition: .5s;
+}
+.box8:hover{
+    transform:skew(4deg, -12deg);
+
+}
+.more{
+    text-align: center;
+    background-color: #f7f9ff;
+}
+.more h1{
+    font-size: 40px;
+}
+.step{
+    background-color:#f7f9ff;
+}
+.step{
+    text-align: center;
+}
+.basicDesign{
+    height:60px;
+    width: 70px;
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+.step1{
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 20px;
+    margin-left: -150px;
+    
+}
+.step1:hover{
+    transform:skew(4deg, -40deg);
+    background:#48dbfb;
+    color: black;
+
+}
+.step2{
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 20px;
+}
+.step2:hover{
+    transform: scale(1.5);
+    background-color:#48dbfb;
+    color: black;
+
+}
+.step3{
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 20px;
+}
+.step3:hover{
+    transform: skew(-40deg, 4deg);
+    background-color:#48dbfb;
+    color: black;
+}
+.last{
+
+}
+.last h2{
+        background-color:#2e2f31;
+        font-size: 20px;
+        text-align: center;
+        color:#c0b8a9;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    
+}
